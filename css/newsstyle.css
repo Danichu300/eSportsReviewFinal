@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-mar-2018, 12:50:46
+    Author     : daniel.rodriguez
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+#wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+section{
+    display: grid;
+    height: auto;
+    margin: 5% 10%;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.informacion{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    /*box-shadow: 5px 5px 5px grey;*/
+}
+
+hr{
+    border-color: white;
+}
+
+article{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+   /* box-shadow: 5px 5px 5px grey;*/
+}
+
+ul{padding: 0;}
+
+li{
+    list-style-type: none;
+}
+
+.informacion > h1{
+    font-size: 0.7em;
+}
+
+article > h1{
+    font-size: 0.7em;
+}
+
+.contenido{
+    font-size: 0.7em;
+    text-align: center;
+}
+
+aside{
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    background: #343a40!important;
+    padding: 20px;
+    margin-top: 15px;
+    color:white;
+}
+
+#comentario{
+    width: 100%;
+    height: 300px;
+}
+
+/*Si la letra del artículo se hace más pequeña la imagen sobresale por debajo*/
+
+.articulo{
+    font-size: 1.5em;
+}
+
+.izquierda-img, .derecha-img{
+    overflow: hidden;
+}
+
+.izquierda-img > img{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.derecha-img > img{
+    float: right;
+    width: 25%;
+    padding: 10px;
+}
