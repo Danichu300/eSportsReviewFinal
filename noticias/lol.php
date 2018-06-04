@@ -174,7 +174,7 @@ and open the template in the editor.
                     $buscarUsuario = "SELECT nombre_usuario FROM usuario WHERE id_usuario = " . $row['usuario'] . "";
                     $resultado = $conn->query($buscarUsuario);
                     $usuario = $resultado->fetch_assoc();
-                    echo "<aside>";
+                    echo "<aside style='word-wrap: break-word;'>";
                     echo "<h2>" . $usuario['nombre_usuario'] . "</h2>";
                     echo "<hr/>";
                     echo "<h4>" . $row['fecha_comentario'] . "</h4>";

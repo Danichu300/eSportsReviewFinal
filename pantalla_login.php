@@ -21,11 +21,11 @@
                 <form action="controlador_login.php" method="post">
                     <div class="form-group">
                         <label for="usuario">Usuario:</label>
-                        <input type="text" class="form-control" id="usuario" placeholder="Usuario" name="usuario" required>
+                        <input type="text" maxlength="15" class="form-control" id="usuario" placeholder="Usuario" name="usuario" required>
                     </div>
                     <div class="form-group">
                         <label for="password">Password:</label>
-                        <input type="password" class="form-control" id="password" placeholder="Enter password" name="password" required>
+                        <input type="password" maxlength="15" class="form-control" id="password" placeholder="Enter password" name="password" required>
                     </div>
                     <button id="entrar" class="btn btn-primary">Entrar</button>
                     <button class="btn btn-primary" id="registro">Registro</button>

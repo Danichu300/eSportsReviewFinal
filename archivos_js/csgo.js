@@ -6,9 +6,11 @@ $(document).ready(function () {
     $("#enviar_comentario").click(borrarFormulario);
     
     $("#comentario").on("keypress", function(){
-        return limitar(50);
+        return limitar(350);
     }).on("keyup", function(){
         informar();
+    }).on("paste", function(){
+        return limitar(350);
     });
 });
 
@@ -49,7 +51,7 @@ function limitar(max) {
 
 function informar() {
     var texto = $("#comentario").val().length;
-    var max = 65535;
+    var max = 350;
     var p = $("#info");
     var restantes = (max - texto);
 

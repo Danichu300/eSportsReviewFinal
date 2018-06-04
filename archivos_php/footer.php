@@ -15,23 +15,23 @@
                 <!--Grid column-->
                 <div class="col-md-6 col-lg-7 text-center text-md-right">
                     <!--Facebook-->
-                    <a class="fb-ic ml-0" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//esportsreview.tk">
+                    <a class="fb-ic ml-0" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.esportsreview.tk">
                         <i class="fa fa-facebook white-text mr-lg-4"> </i>
                     </a>
                     <!--Twitter-->
-                    <a class="tw-ic" target="_blank" href="https://twitter.com/home?status=https%3A//esportsreview.tk">
+                    <a class="tw-ic" target="_blank" href="https://twitter.com/home?status=https%3A//www.esportsreview.tk">
                         <i class="fa fa-twitter white-text mr-lg-4"> </i>
                     </a>
                     <!--Google +-->
-                    <a class="gplus-ic" target="_blank" href="https://plus.google.com/share?url=https%3A//esportsreview.tk">
+                    <a class="gplus-ic" target="_blank" href="https://plus.google.com/share?url=https://www.esportsreview.tk">
                         <i class="fa fa-google-plus white-text mr-lg-4"> </i>
                     </a>
                     <!--Linkedin-->
-                    <a class="li-ic" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//esportsreview.tk&title=&summary=&source=">
+                    <a class="li-ic" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//www.esportsreview.tk&title=&summary=&source=">
                         <i class="fa fa-linkedin white-text mr-lg-4"> </i>
                     </a>
                     <!--Email-->
-                    <a class="ins-ic" target="_blank" href="mailto:Awesome eSports Page!!!?&body=https%3A//esportsreview.tk">
+                    <a class="ins-ic" target="_blank" href="mailto:danikillersx@gmail.com?&body=https%3A//www.esportsreview.tk">
                         <i class="fa fa-envelope white-text mr-lg-4"> </i>
                     </a>
                 </div>
@@ -98,20 +98,8 @@
                     <strong>Contacta con nosotros</strong>
                 </h6>
                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                <p class="correo">
-                    <i class="fa fa-envelope mr-3"></i> danikillersx@gmail.com</p>
-
-                <form id="email" action="../archivos_php/email.php" method="POST" style="display:none;">
-                    <b>Por favor, selecciona el administrador con el que quieres contactar</b><br>
-                    <select name="admins">
-                        <option>danikillersx@gmail.com</option>
-                    </select>
-                    <p><b>Subject</b><br>
-                        <input type="text" name="subject" size=40 required>
-                    <p><b>Message</b><br>
-                        <textarea cols=40 rows=10 name="message" required></textarea>
-                    <p><input type="submit" value=" Send ">
-                </form>
+                <a class="d-inline-block" href="mailto:danikillersx@gmail.com">
+                            <i class="fa fa-envelope mr-3 correo"></i>danikillersx@gmail.com</a>
             </div>
             <!--/.Fourth column-->
 
