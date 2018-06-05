@@ -26,7 +26,7 @@
                             </form>
                         </div>
                     </li>
-                    <?php//asdjfhlkjashdfkljhaskjdhfkahsdfkjhasdkjfhakjshdf sha matao Paco!!!!!!
+                    <?php
                     session_start();
                     if (isset($_SESSION['nombre_usuario'])) {
                         echo "<li class='nav-item dropdown'>";
